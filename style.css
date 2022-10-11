@@ -1,0 +1,164 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+/* Genral */
+a{
+    text-decoration: none;
+    text-emphasis-style: none;
+    font-family: sans-serif;
+    color:black;
+}
+input{
+    display:inline-block;
+    margin:1%;
+    width: fit-content;
+    padding: 0.5%;
+    /*  */    
+}
+textarea{
+    width:fit-content;
+}
+label{
+    display:inline-block;
+    text-align: left;
+    font-family: sans-serif;
+}
+/* Body */
+
+body{
+    
+    /* background-color: blanchedalmond; */
+    position:absolute;
+}
+
+
+.test{
+    border: solid red 4px;
+}
+
+/* Navbar */
+
+.navbar{
+    background-color: #CEE5D0;
+    top: 0%;
+    position:sticky;
+    text-align: center;
+    padding:1.5% 0 0 0;
+    z-index: 5;     
+}
+
+.navbar li{
+    display:inline-block;
+    margin:0 5% 1.5% 5%;
+    position:relative;
+    left:25%;
+}
+a:hover{
+    font-weight: 700;
+    border-bottom: black 2px solid;
+    border-bottom-right-radius: 2px;
+    border-bottom-left-radius: 2px;
+ }
+
+/* main body */
+
+.container-main{
+    top: 5%;
+    background-color: #CEE5D0;
+    display: inline-flex;
+    padding: 2% 0 2% 0;   
+}
+
+.container-left{
+    overflow:visible;
+    position:relative;
+    width: 70%;
+    display: inline-block;
+    margin: auto 2% auto 2%;    
+}
+.container-right{
+    
+    overflow:visible;
+    right: 0%;
+    padding-top: 11%;
+    width: 30%;
+    border:2px solid #94B49F;
+    background-color: #94B49F;
+    border-right:none;
+    border-radius: 15% 0 0 15%;   
+}
+
+.profile-image{
+   margin:2% 16%;
+   left: 21%;
+   border: 2px solid white;
+   border-radius: 50%;
+}
+
+.name{
+    width: 25%;
+    text-align: left;
+    margin: 12% 40% 2% 9.2%;
+    display: inline-block;
+    font-family: 'Pacifico', cursive;
+    font-size: 185%;   
+    background: transparent;
+}
+
+.container-left p{
+    margin:7% 14% 14% 10%;
+    text-align: left;
+}
+
+.disc{
+    background-color: none;
+    font-family: 'Pacifico', cursive;
+    font-size: 115%;
+    margin: 0;
+}
+
+.footer{
+    padding: 3% 35%;
+    background-color: #EFEFEF;   
+    text-align: center;
+}
+.form{
+    padding: 5%;
+    background-color: rgba(0, 0, 0, 0.2);
+    align-items:flex-start;
+    border-radius: 3%; 
+    text-shadow: 2%;
+}
+
+.button{
+    font-family: sans-serif;
+    /* font-size: 25%; */
+    background-color: transparent;
+    width: 23%;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 3px;
+}
+
+.inp{
+    margin: 3%;
+    border-radius: 2%;
+    border-bottom: 1px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-right-radius: 2.3px;
+    border-bottom-left-radius: 2.3px;
+    font-weight: 2%;
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color:rgba(0,0,0,0.2);
+
+}
+
+
+

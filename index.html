@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>profile</title>
+    <link rel="shortcut icon" href="icon.jpeg" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+<body>
+    <nav class="navbar ">
+        <ul>
+            <li><a href="#mainbox"  rel="noopener noreferrer" >Home</a></li>       
+            <li><a href="cv.pdf" download="resume" rel="noopener noreferrer">Resume</a></li>
+            <li><a href="#conForm"  rel="noopener noreferrer">Contact</a></li>
+         
+        </ul>
+    </nav>
+    <div class="container-main" id="mainbox">
+        <div class="container-left ">
+                <h5 class="name ">I'm Mohammed Rehan</h5>
+                <p class="disc "> &emsp; Innovative Front End Developer with good experience building and maintaining responsive websites. Proficient in HTML, CSS, jQuery.</p>
+
+                <br> <br> <br>
+        </div> 
+        <div class="container-right ">
+                <img class="profile-image" src="my-picture.jpeg" alt="profile " width="50%" hight="50%">
+        </div>
+        <br>
+    </div>
+
+    <div class="footer">   
+        
+        <form action="mailto:rehan74147@gmail.com?subject=Replied to your contact me" method="post" class="form" id="conForm" enctype="text/plain" >
+
+            <label for="name">Name:</label> <input  type="text" name="Name" class="inp" id=""> <br>
+            <label for="email">Mobile:</label> <input  type="mobile" name="Mobile" class="inp" id=""> <br>
+            <label for="tarea"></label> <textarea style="padding: 3px;"  name="Message" id="" cols="28" rows="8" class="inp" placeholder=" This Message will be sent through mail"></textarea> <br>
+
+            <input  class="button" type="reset" value="reset">
+            <input class="button" type="submit" value="submit">
+ 
+        </form>
+    </div>
+    
+
+</body>
+</html>
